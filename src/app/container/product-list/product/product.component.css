@@ -1,0 +1,101 @@
+.ekart-products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .ekart-product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .ekart-wishlist-sale-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .ekart-add-to-wishlist {
+    color: #888;
+  }
+  
+  .ekart-product-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .ekart-add-to-price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ekart-product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .ekart-product-category,
+  .ekart-product-in-stock{
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .ekart-product-available-colors {
+    font-size: 14px;
+    color: #666;
+  }
+  .ekart-product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .ekart-product-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .ekart-wishlist-sale-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .ekart-add-to-wishlist {
+    color: #888;
+  }
+  
+  .ekart-product-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .ekart-add-to-price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ekart-product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .ekart-product-category {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .ekart-product-available-colors {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  

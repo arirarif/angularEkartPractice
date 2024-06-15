@@ -1,0 +1,19 @@
+
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px 20vh;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filter-container span {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
