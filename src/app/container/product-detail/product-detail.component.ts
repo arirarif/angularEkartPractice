@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Product } from 'src/app/Models/Product';
+import { Product } from 'src/app/ModelsGit/Product';
 
 @Component({
   selector: 'product-detail',
