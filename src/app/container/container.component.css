@@ -5,3 +5,38 @@ button{
     padding: 5px 10px;
     margin: 0px 5px;
 }
+.ekart-featured-products {
+    background-color: #28282B;  /* Dark background color for the container */
+    padding: 20px 10px;          /* Padding inside the container */
+    display: flex;               /* Flexbox layout for items */
+    flex-wrap: wrap;             /* Allow wrapping of items */
+    justify-content: space-around; /* Space items evenly with space around them */
+}
+
+/* Style for the heading */
+.ekart-featured-product-heading {
+    width: 320px;                /* Set the width of the heading */
+    margin: 10px 10px;           /* Margin around the heading */
+    padding: 20px 30px;          /* Padding inside the heading */
+    color: #fff;                 /* White text color for the heading */
+    /* font-size: 1.8em;            Larger font size for the heading */
+    text-align: center;          /* Center the text */
+}
+.call-to-action {
+    background-color: #28282B;   /* Background color for the button */
+    color: #fff;                 /* Text color for the button */
+    width: 100%;                 /* Button takes full width */
+    padding: 10px 0px;           /* Padding inside the button */
+    border: none;                /* Remove the border */
+    border-radius: 5px;          /* Rounded corners for the button */
+    cursor: pointer;             /* Cursor changes to pointer on hover */
+    text-transform: uppercase;   /* Uppercase text for the button */
+}
+
+/* Hover effect for the call-to-action button */
+.call-to-action:hover {
+    background-color: #0056b3;   /* Change background color on hover */
+}
+.title, .call-to-action {
+    margin: 10px 0px;            /* Vertical margin for title, description, and button */
+}

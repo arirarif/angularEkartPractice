@@ -1,0 +1,13 @@
+.ekart-featured-product-item {
+    width: 270px;                /* Set the width of each product item */
+    margin: 10px 10px;           /* Margin around each product item */
+    padding: 20px 30px;          /* Padding inside each product item */
+    background-color: #fff;      /* Background color of each product item */
+    border: 1px solid #ddd;      /* Border for each product item */
+    border-radius: 8px;          /* Rounded corners for each product item */
+}
+
+/* Style for the title, description, and button margins */
+
+
+/* Style for the call-to-action button */
